@@ -69,5 +69,5 @@ func main() {
 
     // Start the server on port 8080
     log.Println("Server is running on http://localhost:8080")
-    router.Run(":8080")
+    router.Run()
 }
